@@ -1,0 +1,21 @@
+{
+  "name": "saomiao",
+  "version": "1.0.0",
+  "description": "扫描各种漏洞文件",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www/app.js"
+  },
+  "author": "zhuhui@lonlife.cn",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "koa": "^2.0.0-alpha.7",
+    "koa-router": "^7.0.1",
+    "koa-static": "^2.0.0",
+    "koa-views": "^5.0.2",
+    "swig": "^1.4.2"
+  }
+}
